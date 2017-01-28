@@ -27,7 +27,7 @@ color:
   primary: ff69b4 #HotPink
   primary-rgb: "255,105,180" 
   secondary: 8b3a62 #HotPink4 ee6aa7 #HotPink2 cd6090  #HotPink3
-  secondary-dark: ff6eb4 #HotPink1
+  secondary-dark: cd6090  #HotPink3
 
 # Footer settings
 footer:
