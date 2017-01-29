@@ -175,6 +175,11 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
