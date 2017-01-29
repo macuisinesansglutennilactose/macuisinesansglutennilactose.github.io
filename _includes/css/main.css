@@ -25,8 +25,8 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>li>a.fr:lang(fr), 
-.navbar-default .navbar-nav>li>a.de:lang(de) {
+.navbar-default .navbar-nav>li>a:lang(fr), 
+.navbar-default .navbar-nav>li>a:lang(de) {
     outline: 0;
     color: #{{ site.color.primary }};
 }
