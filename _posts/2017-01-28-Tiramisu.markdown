@@ -5,7 +5,7 @@ ref: tiramisu
 img: tiramisu.jpg
 img_thumb: tiramisu_thumb.jpg
 alt: Tiramisu
-title: Tiramisu
+title: Testamisu
 category: dessert
 description: Recette de tiramisu sans gluten et sans lactose
 ---
