@@ -25,9 +25,14 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>li>a.{{ page.lang }} {
+.navbar-default .navbar-nav>li>a:lang({{ page.lang }}) {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary }} !important;
+}
+
+.navbar-default .navbar-nav>li>a:lang(de) {
+    outline: 0;
+    color: #{{ site.color.primary }} !important;
 }
 
 h1,
