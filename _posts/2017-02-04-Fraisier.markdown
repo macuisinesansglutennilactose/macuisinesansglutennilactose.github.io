@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2017-02-04
-img: safe.png
+img: tiramisu.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
