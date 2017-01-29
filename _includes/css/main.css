@@ -171,11 +171,13 @@ header .intro-text .skills {
 }
 
 .navbar-top {
-    float: top !important;
+    position: absolute;
+    top: 5px;
 }
 
 .navbar-bottom {
-    float: bottom !important;
+    position: absolute;
+    bottom: 5px;
 }
 
 section {
