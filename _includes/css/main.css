@@ -25,6 +25,11 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+.fr:lang(fr), .de:lang(de){
+    outline: 0;
+    color: #{{ site.color.primary }};
+}
+
 h1,
 h2,
 h3,
