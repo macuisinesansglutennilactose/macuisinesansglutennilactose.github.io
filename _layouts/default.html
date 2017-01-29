@@ -7,9 +7,9 @@
     {% include portfolio_grid.html %}
     {% include about.html %}
 
-    {% if site.contact == "static" %}
+    {% if page.contact == "static" %}
     {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
+    {% elsif page.contact == "disqus" %}
     {% include contact_disqus.html %}
     {% else %}
     {% include contact.html %}
