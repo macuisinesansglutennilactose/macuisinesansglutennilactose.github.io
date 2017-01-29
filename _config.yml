@@ -1,9 +1,6 @@
 # Site settings
-title: Ma cuisine
-email: your-email@domain.com
+email: nadege.griesser@gmail.com
 url: https://macuisinesansglutennilactose.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "sans gluten ni lactose"
 meta_author: Nadège Griesser
 
 # Google webmaster tools
@@ -62,9 +59,15 @@ t:
     portfolio: Recettes
     about: À propos
     contact: contact
+    name: Nom
+    email: E-Mail
+    message: Message
   de:
     title: Kochen
     skills: gluten und laktosefrei
     portfolio: Rezepte
     about: Über mich
     contact: Kontakt
+    name: Name
+    email: E-Mail-Adresse
+    message: Nachricht
