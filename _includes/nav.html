@@ -14,39 +14,20 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <div>
-                  <ul class="nav navbar-nav navbar-right">
-                       <li class="hidden">
-                           <a href="#page-top"></a>
-                       </li>
-                       <li class="page-scroll">
-                           <a href="#portfolio">Recettes</a>
-                       </li>
-                       <li class="page-scroll">
-                           <a href="#about">About</a>
-                       </li>
-                       <li class="page-scroll">
-                           <a href="#contact">Contact</a>
-                       </li>
-                   </ul>
-              </div>
-              <div>
-                   <ul class="nav navbar-nav navbar-right">
-                        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-                        {% for post in posts %}
-                          <li>
-                            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-                          </li>
-                        {% endfor %}
-
-                        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                        {% for page in pages %}
-                          <li>
-                            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-                          </li>
-                        {% endfor %}
-                   </ul>
-               </div>
+               <ul class="nav navbar-nav navbar-right">
+                   <li class="hidden">
+                       <a href="#page-top"></a>
+                   </li>
+                   <li class="page-scroll">
+                       <a href="#portfolio">Recettes</a>
+                   </li>
+                   <li class="page-scroll">
+                        <a href="#about">About</a>
+                   </li>
+                   <li class="page-scroll">
+                       <a href="#contact">Contact</a>
+                  </li>
+               </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
