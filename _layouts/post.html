@@ -1,7 +1,13 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body>
-        {% include post.html %}
-    </body>
-</html>
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% include disqus.html %}
+</article>
