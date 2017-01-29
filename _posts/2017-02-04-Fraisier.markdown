@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: de
+ref: fraisier
 modal-id: 2
 date: 2017-02-04
 img: tiramisu.jpg
