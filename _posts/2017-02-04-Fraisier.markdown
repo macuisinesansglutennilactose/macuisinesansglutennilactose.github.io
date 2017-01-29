@@ -3,7 +3,9 @@ layout: default
 modal-id: 2
 date: 2017-02-04
 img: tiramisu.jpg
-alt: image-alt
+img_thumb: tiramisu_thumb.jpg
+alt: Fraisier
+caption: Fraisier
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
