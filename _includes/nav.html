@@ -13,6 +13,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
                    <li class="hidden">
@@ -29,10 +30,6 @@
                   </li>
                </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        <!--/div-->
-        <!-- /.container-fluid -->
-        <!--div class="container"-->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                <ul class="nav navbar-nav navbar-right">
                   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -50,5 +47,8 @@
                   {% endfor %}
                </ul>
             </div>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
