@@ -3,7 +3,9 @@ layout: default
 modal-id: 1
 date: 2017-01-28
 img: tiramisu.jpg
-alt: image-alt
+img_thumb: tiramisu_thmb.jpg
+caption: Tiramisu
+alt: Tiramisu
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
