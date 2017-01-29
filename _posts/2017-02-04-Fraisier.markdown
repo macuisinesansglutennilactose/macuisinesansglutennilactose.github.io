@@ -5,6 +5,7 @@ ref: fraisier
 img: tiramisu.jpg
 img_thumb: tiramisu_thumb.jpg
 alt: Fraisier
+title: Fraisier
 category: dessert
 description: Recette de fraisier
 
