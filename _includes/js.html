@@ -11,16 +11,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
-    {% if page.contact == "static" %}
-    <script src="{{ "/js/contact_me_static.js" }}"></script>
-    {% else %}
-     <script src="{{ "/js/contact_me.js" }}"></script>
-    {% endif %}
+    <script src="{{ "/js/contact_me.js" }}"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
-
-    {% if page.contact == "disqus" %}
-    <!-- Disqus Stuff -->
-    {% include js_disqus.html %}
-    {% endif %}
