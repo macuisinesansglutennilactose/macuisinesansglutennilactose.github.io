@@ -64,5 +64,7 @@ permalink: pretty
 t:
   fr:
     title: Ma cuisine
+    skills: sans gluten ni lactose
   de:
     title: Kochen
+    skills: gluten und laktosefrei
