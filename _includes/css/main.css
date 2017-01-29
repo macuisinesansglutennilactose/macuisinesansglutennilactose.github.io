@@ -158,11 +158,6 @@ header .intro-text .skills {
     font-size: 10px;
 }
 
-#bs-example-navbar-collapse-2 a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .navbar a:focus {
     outline: 0;
 }
@@ -175,9 +170,15 @@ header .intro-text .skills {
     outline: 0;
 }
 
-.navbar-nav>li>a {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+#bs-example-navbar-collapse-1 .navbar-nav>li>a {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+#bs-example-navbar-collapse-2 .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 11px;
 }
 
 .navbar-default,
