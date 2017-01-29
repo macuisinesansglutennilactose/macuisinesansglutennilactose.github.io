@@ -85,7 +85,8 @@ header {
     background: #{{ site.color.primary }};
 }
 
-header .container {
+header .container,
+article .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -109,7 +110,8 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
+    header .container,
+    article .container {
         padding-top: 200px;
         padding-bottom: 100px;
     }
