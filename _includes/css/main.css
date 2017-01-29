@@ -153,6 +153,10 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+#bs-example-navbar-collapse-2.navbar {
+    font-weight: 400;
+}
+
 .navbar a:focus {
     outline: 0;
 }
