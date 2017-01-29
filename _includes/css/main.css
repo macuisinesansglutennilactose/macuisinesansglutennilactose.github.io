@@ -170,6 +170,14 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-top {
+    float: top !important;
+}
+
+.navbar-bottom {
+    float: bottom !important;
+}
+
 section {
     padding: 100px 0;
 }
