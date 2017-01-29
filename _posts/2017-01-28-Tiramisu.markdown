@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 lang: fr
 ref: tiramisu
 img: tiramisu.jpg
