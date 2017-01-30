@@ -75,6 +75,7 @@ t:
       cornfloor: fécule
       castersugar: sucre semoule
       icingsugar: sucre glace
+      koffee: café très serré
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -97,6 +98,7 @@ t:
       cornfloor: Speisestärke
       castersugar: Raffinade Zucker
       icingsugar: Puderzucker
+      koffee: Kaffee extra stark
       
 kcal:
   butter: 717 / 100
