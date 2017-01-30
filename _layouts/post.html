@@ -13,9 +13,8 @@ layout: default
     </div>
     <div class="row">
       {% for cat in page.ingredients %}
-	    {% assign name = cat.key %}
-	    {{ cat }}
-	 name   {{ name }}
+	cat {{ cat }}
+	ala js {{ page.ingredients[cat] }}
 	with point    {{ cat.biscuit }}
 	With array    {{ cat[biscuit] }}
 	<h3>{{ cat.biscuit.key }}</h3>
