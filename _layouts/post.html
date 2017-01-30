@@ -14,7 +14,7 @@ layout: default
     <div class="row">
       {% for cat in page.ingredients %}
 	    {{ cat }}
-	<h3>{{ cat.key }}</h3>
+	<h3>{{ cat.biscuit.key }}</h3>
 	    <ul>
 	{% for ingredient in cat.ingredients %}
 	{% if ingredient.quantity %}
