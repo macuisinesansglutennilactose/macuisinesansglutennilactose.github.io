@@ -63,6 +63,7 @@ t:
     email: E-Mail
     message: Message
     send: Envoyer
+    of: de
     units:
       gram: g
       kilogram: kg
@@ -78,6 +79,7 @@ t:
     email: E-Mail-Adresse
     message: Nachricht
     send: Absenden
+    of: 
     units:
       gram: g
       kilogram: kg
