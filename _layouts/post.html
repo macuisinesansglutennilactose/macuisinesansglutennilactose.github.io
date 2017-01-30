@@ -13,20 +13,9 @@ layout: default
     </div>
     <div class="row">
       {% for cat in page.ingredients %}
-	 rindex    {{ forloop.rindex}}
-	cat {{ page.ingredients[forloop.rindex] }}
-	ala js {{ page.ingredients[cat] }}
-	with point    {{ cat.key }}
-	With array    {{ cat[key] }}
 	<h3>{{ cat.key }}</h3>
 	    <ul>
-	{% for ingredient in cat.ingredients %}
-	{% if ingredient.quantity %}
-		    <li>{{ ingredient.quantity }} {{ ingredient.key }}</li>
-	{% elsif ingredient.gram %}
-		    <li>{{ ingredient.gram }} {{ site.unit[ingredient.unit] }} {{ site.t[page.lang].of }} {{ ingredient.key }}</li>
-	{% endif %}   
-	{% endfor %}
+	
 	    </ul>
       {% endfor %}
     </div>	  
