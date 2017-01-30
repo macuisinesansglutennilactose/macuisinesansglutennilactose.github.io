@@ -10,22 +10,31 @@ category: dessert
 description: Recette de tiramisu sans gluten et sans lactose
 ingredients:
   biscuit:
-    egg:
-      guantity: 2
-      gram: 120
-    ricefloor:
-      gram: 20
-      unit: gram
-    cornfloor:
-      gram: 20
-      unit: gram
-    castersugar:
-      gram: 40
-      unit: gram
-    icingsugar:
-      gram: 5
-      unit: gram
+    key: Biscuit cuillère
+    ingredients: 
+      egg:
+        key: eggs
+        guantity: 2
+        gram: 120
+      ricefloor:
+        key: ricefloor
+        gram: 20
+        unit: gram
+      cornfloor:
+        key: cornfloor
+        gram: 20
+        unit: gram
+      castersugar:
+        key: castersugar
+        gram: 40
+        unit: gram
+      icingsugar:
+        key: icingsugar
+        gram: 5
+        unit: gram
   crème:
+    key: Crème
+    ingredients: 
 ---
 Lala lili lulu
 Lolo
