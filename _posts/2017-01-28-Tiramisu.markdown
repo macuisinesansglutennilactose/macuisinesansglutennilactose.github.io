@@ -12,7 +12,7 @@ ingredients:
     - key: Biscuit cuillère
       ingredients:
         - key: eggs
-          guantity: 2
+          quantity: 2
           gram: 120
         - key: ricefloor
           gram: 20
