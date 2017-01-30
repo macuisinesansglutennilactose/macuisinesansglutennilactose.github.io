@@ -11,14 +11,15 @@ layout: default
         <hr class="star-primary">
       </div>
     </div>
-    <div class="row">
-      {% for cat in page.ingredients %}
-	<h3>{{ cat.key }}</h3>
+    {% for cat in page.ingredients %}
+      <div class="row">
+    	<h4>{{ cat }}</h4>
+    	<h3>{{ cat.key }}</h3>
 	    <ul>
 	
 	    </ul>
-      {% endfor %}
-    </div>	  
+      </div>	  
+    {% endfor %}
     <div class="row">
         {{ content }}
     </div>
