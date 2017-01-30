@@ -11,7 +11,7 @@ description: Recette de tiramisu sans gluten et sans lactose
 ingredients:
     biscuit:
       key: Biscuit cuillère
-    crème:
+    cream:
       key: Crème
 ---
 Lala lili lulu
