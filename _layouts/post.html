@@ -13,7 +13,7 @@ layout: default
     </div>
     <div class="row">
       {% for cat in page.ingredients %}
-	    {% assign name = cat.label %}
+	    {% assign name = cat.key %}
 	    {{ cat }}
 	 name   {{ name }}
 	with point    {{ cat.biscuit }}
