@@ -14,15 +14,16 @@ layout: default
     <div class="row">
       <h3>Ingredients</h3>
     </div>
+    {% assign dico = site.t[page.lang] %}
     {% for cat in page.ingredients %}
       <div class="row">
     	<h4>{{ cat.key }}</h4>
 	    <ul>
     		{% for ingredient in cat.ingredients %}
 		    {% if ingredient.quantity %}
-		    <li>{{ ingredient.quantity }} {{ ingredient.key }}</li>
+		    <li>{{ ingredient.quantity }} {{ dico.ingredients[ingredient.key] }}</li>
 		    {% elsif ingredient.gram %}
-		    <li>{{ ingredient.gram }} {{ ingredient.unit }} {{ site.t[page.lang].of }} {{ ingredient.key }}</li>
+		    <li>{{ ingredient.gram }} {{ dico.units[ingredient.unit] }} {{ dico.of }} {{ dico.ingredients[ingredient.key] }}</li>
 		    {% endif %}
 		{% endfor %}
 	    </ul>
