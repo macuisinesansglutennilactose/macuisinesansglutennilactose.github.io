@@ -13,7 +13,8 @@ layout: default
     </div>
     <div class="row">
       {% for cat in page.ingredients %}
-	cat {{ cat }}
+	 rindex    {{ forloop.rindex}}
+	cat {{ page.ingredients[forloop.rindex] }}
 	ala js {{ page.ingredients[cat] }}
 	with point    {{ cat.key }}
 	With array    {{ cat[key] }}
