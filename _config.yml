@@ -62,6 +62,12 @@ t:
     name: Nom
     email: E-Mail
     message: Message
+    send: Envoyer
+    units:
+      gram: g
+      kilogram: kg
+      milliliter: mL
+      liter: L
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -71,3 +77,16 @@ t:
     name: Name
     email: E-Mail-Adresse
     message: Nachricht
+    send: Absenden
+    units:
+      gram: g
+      kilogram: kg
+      milliliter: mL
+      liter: L
+      
+kcal:
+  butter: 717 / 100
+  mascarpone: 407 / 100
+  ricefloor: 366 / 100
+  cornfloor: 349 / 100
+  egg: 137 / 100
