@@ -69,6 +69,12 @@ t:
       kilogram: kg
       milliliter: mL
       liter: L
+    ingredients:
+      eggs: oeufs
+      ricefloor: farine de riz
+      cornfloor: fécule
+      castersugar: sucre semoule
+      icingsugar: sucre glace
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -85,10 +91,18 @@ t:
       kilogram: kg
       milliliter: mL
       liter: L
+    ingredients:
+      eggs: Eier
+      ricefloor: Reismehl
+      cornfloor: Speisestärke
+      castersugar: Raffinade Zucker
+      icingsugar: Puderzucker
       
 kcal:
   butter: 717 / 100
   mascarpone: 407 / 100
   ricefloor: 366 / 100
   cornfloor: 349 / 100
-  egg: 137 / 100
+  eggs: 137 / 100
+  castersugar: 400 / 100
+  icingsugar: 389 / 100
