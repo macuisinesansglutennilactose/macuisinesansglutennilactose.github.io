@@ -18,7 +18,13 @@ layout: default
       <div class="row">
     	<h4>{{ cat.key }}</h4>
 	    <ul>
-	
+    		{% for ingredient in cat.ingredients %}
+		    {% if ingredient.quantity %}
+		    <li>{{ ingredient.quantity }} {{ ingredient.key }}</li>
+		    {% elsif ingredient.gram %}
+		    <li>{{ ingredient.gram }} {{ ingredient.unit }} {{ site.t[page.lang].of }} {{ ingredient.key }}</li>
+		    {% endif %}
+		{% endfor %}
 	    </ul>
       </div>	  
     {% endfor %}
