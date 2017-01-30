@@ -13,27 +13,17 @@ layout: default
     </div>
     <div class="row">
       {% for cat in page.ingredients %}
-	    <h3>{{ cat }}</h3>
-	    
+	<h3>{{ cat.key }}</h3>
+	    <ul>
+	{% for ingredient in cat.ingredients %}
+	{% if ingredient.quantity %}
+		    <li>{{ ingredient.quantity }} {{ ingredient.key }}</li>
+	{% elsif ingredient.gram %}
+		    <li>{{ ingredient.gram }} {{ site.unit[ingredient.unit] }} {{ site.t[page.lang].of }} {{ ingredient.key }}</li>
+	{% endif %}   
+	{% endfor %}
+	    </ul>
       {% endfor %}
-	  ingredients:
-  biscuit:
-    egg:
-      guantity: 2
-      gram: 120
-    ricefloor:
-      gram: 20
-      unit: gram
-    cornfloor:
-      gram: 20
-      unit: gram
-    castersugar:
-      gram: 40
-      unit: gram
-    icingsugar:
-      gram: 5
-      unit: gram
-  crème:
     </div>	  
     <div class="row">
         {{ content }}
