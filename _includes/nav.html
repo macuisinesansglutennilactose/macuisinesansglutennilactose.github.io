@@ -4,16 +4,19 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                <div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"
+                </button-->
+                  
+               {% include menu_mobile.html %}
+               {% include language_mobile.html %}
+               <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"
                        style="width:43.6px;height:33.6px">
                     <img width="24px" height="19px" style="position: absolute; top: 7px; left: 9px;" src="/img/{{ page.lang }}.png" />
-               </button>
+               </button-->
                </div>
                <div style="float: left"> 
                   <div style="float: left">
@@ -43,7 +46,9 @@
                   </li>
                </ul>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+               
+            {% include language.html %}
+            <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                <ul class="nav navbar-nav navbar-right">
                   {% assign posts=site.posts | where:"layout", page.layout | sort: 'lang' %}
                   {% for post in posts %}
@@ -59,7 +64,7 @@
                      </li>
                   {% endfor %}
                </ul>
-            </div>
+            </div-->
             </div>
             <!-- /.navbar-collapse -->
         </div>
