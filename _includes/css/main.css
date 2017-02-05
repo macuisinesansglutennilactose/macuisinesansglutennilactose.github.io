@@ -139,7 +139,7 @@ header .intro-text .skills {
         -moz-transition: all .3s;
         transition: all .3s;
         height: 50px;
-        padding-bottom: 5px;
+        padding: 9.5px 15px;
     }
     
     .navbar-fixed-top .navbar-subbrand {
