@@ -9,9 +9,8 @@
                 </div>
             </div>
             <div class="row">
-                {% assign posts=site.posts | where:"lang", page.lang %}
+                {% assign posts=site.posts | where:"category", page.lang %}
                 {% for post in posts %}
-                {{ post.layout.ref }}
                     <div class="col-sm-4 portfolio-item">
                         <div class="text-center">
                             <h3>{{ post.title }}</h3>
@@ -22,7 +21,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/{{ post.ref }}_thumb.jpg" class="img-responsive" alt="{{ post.title }}">
+                            <img src="/img/portfolio/{{ post.layout }}_thumb.jpg" class="img-responsive" alt="{{ post.title }}">
                         </a>
                     </div>
                 {% endfor %}
