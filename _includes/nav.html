@@ -10,8 +10,12 @@
                     <span class="icon-bar"></span>
                 </button>
                <div style="float: left"> 
-                  <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
-                  <a class="navbar-subbrand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].skills }}</a>
+                  <div>
+                     <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
+                  </div>
+                  <div>
+                     <a class="navbar-subbrand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].skills }}</a>
+                  </div>
                </div>
             </div>
 
