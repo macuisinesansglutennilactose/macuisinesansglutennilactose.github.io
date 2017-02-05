@@ -34,6 +34,8 @@
                <ul class="nav navbar-nav navbar-right">
                  ref {{ page }}
                  lref {{ page.layout }}
+                  ref {{ post }}
+                 lref {{ site.layouts }}
                   {% assign posts=site.posts | where:"layout.ref", page.layout.ref | sort: 'lang' %}
                   {% for post in posts %}
                      <li>
