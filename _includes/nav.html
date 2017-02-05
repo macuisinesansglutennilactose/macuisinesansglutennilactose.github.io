@@ -7,34 +7,27 @@
                  {% include menu_mobile.html %}
                  {% include language_mobile.html %}
                </div>
-               <div style="float: left"> 
-                  <div style="float: left">
-                     <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
-                  </div>
-                  <div style="float: left; clear: both">
-                     <a class="navbar-brand navbar-subbrand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].skills }}</a>
-                  </div>
-               </div>
+               {% include brand.html %}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div style="float: right">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                   <li class="hidden">
-                       <a href="#page-top"></a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#portfolio">{{ site.t[page.lang].portfolio }}</a>
-                   </li>
-                   <li class="page-scroll">
-                        <a href="#about">{{ site.t[page.lang].about }}</a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#contact">{{ site.t[page.lang].contact }}</a>
-                  </li>
-               </ul>
-            </div>
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="hidden">
+                          <a href="#page-top"></a>
+                      </li>
+                      <li class="page-scroll">
+                          <a href="#portfolio">{{ site.t[page.lang].portfolio }}</a>
+                      </li>
+                      <li class="page-scroll">
+                           <a href="#about">{{ site.t[page.lang].about }}</a>
+                      </li>
+                      <li class="page-scroll">
+                          <a href="#contact">{{ site.t[page.lang].contact }}</a>
+                     </li>
+                  </ul>
+               </div>
                
                {% include language.html %}
             </div>
