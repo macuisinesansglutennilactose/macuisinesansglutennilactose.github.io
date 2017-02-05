@@ -138,16 +138,14 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-        line-height: 23px;
-        height: 44px;
+        height: 42px;
         padding: 9.5px 15px 0px 15px;
     }
     
     .navbar-fixed-top .navbar-subbrand {
         float: left;
         clear: both;
-        font-weight: 400;
-        font-size: 10px;
+        font-size: 1.5em;
     }
 
     .navbar-fixed-top.navbar-shrink {
