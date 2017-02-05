@@ -141,24 +141,16 @@ header .intro-text .skills {
     }
     
     .navbar-fixed-top .navbar-subbrand {
-        font-size: 1.5em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        float: left;
+        clear: both;
+        font-weight: 400;
+        font-size: 10px;
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-weight: 400;
-        font-size: 10px;
-    }
     
-    .navbar-fixed-top.navbar-shrink .navbar-subbrand {
-        font-size: 0px;
-    }
 }
 
 .navbar {
