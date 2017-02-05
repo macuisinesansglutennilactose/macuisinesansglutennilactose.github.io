@@ -9,7 +9,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
+               <div style="float: left"> 
+                  <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
+                  {{ site.t[page.lang].skills }}
+               </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
