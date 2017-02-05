@@ -134,7 +134,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2.4em;
+        font-size: 2.2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -144,7 +144,7 @@ header .intro-text .skills {
     .navbar-fixed-top .navbar-subbrand {
         float: left;
         clear: both;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .navbar-fixed-top.navbar-shrink {
