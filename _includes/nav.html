@@ -11,7 +11,7 @@
                 </button>
                <div style="float: left"> 
                   <a class="navbar-brand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].title }}</a>
-                  {{ site.t[page.lang].skills }}
+                  <a class="navbar-subbrand" href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top">{{ site.t[page.lang].skills }}</a>
                </div>
             </div>
 
