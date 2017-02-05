@@ -11,7 +11,7 @@
             <div class="row">
                 {% assign posts=site.posts | where:"lang", page.lang %}
                 {% for post in posts %}
-                {{ post.layout }}
+                {{ post.layout.ref }}
                     <div class="col-sm-4 portfolio-item">
                         <div class="text-center">
                             <h3>{{ post.title }}</h3>
