@@ -30,16 +30,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
                    <li class="hidden">
-                       <a href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#page-top"></a>
+                       <a href="#page-top"></a>
                    </li>
                    <li class="page-scroll">
-                       <a href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#portfolio">{{ site.t[page.lang].portfolio }}</a>
+                       <a href="#portfolio">{{ site.t[page.lang].portfolio }}</a>
                    </li>
                    <li class="page-scroll">
-                        <a href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#about">{{ site.t[page.lang].about }}</a>
+                        <a href="#about">{{ site.t[page.lang].about }}</a>
                    </li>
                    <li class="page-scroll">
-                       <a href="{% if page.lang != "fr" %}/index_{{ page.lang }}{% endif %}/#contact">{{ site.t[page.lang].contact }}</a>
+                       <a href="#contact">{{ site.t[page.lang].contact }}</a>
                   </li>
                </ul>
             </div>
