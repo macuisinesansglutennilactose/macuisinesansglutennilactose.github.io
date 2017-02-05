@@ -1,12 +1,5 @@
 ---
-layout: post
-lang: de
-ref: fraisier
-img: tiramisu.jpg
-img_thumb: tiramisu_thumb.jpg
-alt: Fraisier
+layout: fraisier
+lang: fr
 title: Fraisier
-category: dessert
-description: Recette de fraisier
-
 ---
