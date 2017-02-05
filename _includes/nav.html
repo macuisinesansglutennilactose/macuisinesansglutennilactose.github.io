@@ -32,14 +32,14 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                <ul class="nav navbar-nav navbar-right">
-                  {% assign posts=site.posts | where:"layout.ref", 'de' | sort: 'lang' %}
+                  {% assign posts=site.posts | where:"layout", page.layout | sort: 'lang' %}
                   {% for post in posts %}
                      <li>
                         <a href="{{ post.url }}" lang="{{ post.lang }}">{{ post.lang }}</a>
                       </li>
                   {% endfor %}
 
-                  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                  {% assign pages=site.pages | where:"layout", page.layout | sort: 'lang' %}
                   {% for page in pages %}
                      <li>
                         <a href="{{ page.url }}" lang="{{ page.lang }}">{{ page.lang }}</a>
