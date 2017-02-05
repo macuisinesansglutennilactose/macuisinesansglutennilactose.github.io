@@ -150,7 +150,7 @@ header .intro-text .skills {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .navbar-fixed-top .navbar-brand {
