@@ -32,7 +32,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                <ul class="nav navbar-nav navbar-right">
-                  {% assign posts=site.posts | where:"ref", page.layout.ref | sort: 'lang' %}
+                  {% assign posts=site.posts | where:"layout.ref", page.layout.ref | sort: 'lang' %}
                   {% for post in posts %}
                      <li>
                         <a href="{{ post.url }}" lang="{{ post.lang }}">{{ post.lang }}</a>
