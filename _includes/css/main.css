@@ -138,6 +138,7 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding-bottom: 5px;
     }
     
     .navbar-fixed-top .navbar-subbrand {
