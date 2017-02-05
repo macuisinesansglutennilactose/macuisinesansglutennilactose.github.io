@@ -32,8 +32,8 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                <ul class="nav navbar-nav navbar-right">
-                 ref {{ page.ref }}
-                 lref {{ page.layout.ref }}
+                 ref {{ page }}
+                 lref {{ page.layout }}
                   {% assign posts=site.posts | where:"layout.ref", page.layout.ref | sort: 'lang' %}
                   {% for post in posts %}
                      <li>
