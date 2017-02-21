@@ -81,6 +81,7 @@ t:
       vanillabean: gousse de vanille
       butter: beurre
       kirsch: kirsch
+      milk: lait
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -109,6 +110,7 @@ t:
       vanillabean: Vanilleschote
       butter: Butter
       kirsch: Kirschwasser
+      milk: Milch
       
 kcal:
   butter: 717 / 100
