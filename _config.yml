@@ -78,10 +78,13 @@ t:
       castersugar: sucre semoule
       icingsugar: sucre glace
       koffee: café très serré
-      vanillabean: gousse de vanille
+      vanilla bean: gousse de vanille
       butter: beurre
       kirsch: kirsch
       milk: lait
+      genoise: Génoise
+      mousseline cream: Crème mousseline
+      assembling: Montage
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -107,10 +110,13 @@ t:
       castersugar: Raffinade Zucker
       icingsugar: Puderzucker
       koffee: Kaffee extra stark
-      vanillabean: Vanilleschote
+      vanilla bean: Vanilleschote
       butter: Butter
       kirsch: Kirschwasser
       milk: Milch
+      genoise: Biskuit
+      mousseline cream: Crème Mousseline
+      assembling: Aufbau
       
 kcal:
   butter: 717 / 100
