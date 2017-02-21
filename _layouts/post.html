@@ -18,7 +18,7 @@ layout: default
     </div>
     {% for cat in layout.ingredients %}
       <div class="row">
-    	<h4>{{ cat.key }}</h4>
+    	<h4>{{ dico.ingredients[cat.key] }}</h4>
 	    <ul>
     		{% for ingredient in cat.ingredients %}
 		    {% if ingredient.quantity %}
