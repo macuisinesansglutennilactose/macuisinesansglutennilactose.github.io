@@ -72,11 +72,15 @@ t:
       liter: L
     ingredients:
       eggs: oeufs
+      eggyolk: jaunes d'oeufs
       ricefloor: farine de riz
       cornfloor: fécule
       castersugar: sucre semoule
       icingsugar: sucre glace
       koffee: café très serré
+      vanillabean: gousse de vanille
+      butter: beurre
+      kirsch: kirsch
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -96,11 +100,15 @@ t:
       liter: L
     ingredients:
       eggs: Eier
+      eggyolk: Eigelb
       ricefloor: Reismehl
       cornfloor: Speisestärke
       castersugar: Raffinade Zucker
       icingsugar: Puderzucker
       koffee: Kaffee extra stark
+      vanillabean: Vanilleschote
+      butter: Butter
+      kirsch: Kirschwasser
       
 kcal:
   butter: 717 / 100
