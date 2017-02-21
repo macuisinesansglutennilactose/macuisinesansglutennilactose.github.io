@@ -89,6 +89,8 @@ t:
       genoise: Génoise
       mousseline cream: Crème mousseline
       assembling: Montage
+    molds:
+      springform 16 cm: pour un moule a charnière rond de 16 cm de diamètre
   de:
     title: Kochen
     skills: gluten und laktosefrei
@@ -125,6 +127,8 @@ t:
       genoise: Biskuit
       mousseline cream: Crème Mousseline
       assembling: Aufbau
+    molds:
+      springform 16 cm: für eine Springform mit 16 cm Durchmesser
       
 kcal:
   butter: 717 / 100
